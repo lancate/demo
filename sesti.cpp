@@ -17,7 +17,7 @@ struct karton{
 int main (){
 	vector<karton>niz;
 	niz.push_back({"Harun","Dedovic",555333,4.0,{6,4,2003}});
-	niz.push_back({"Ismail","Gakic",524312,4.3,{1,1,2002}});
+	niz.push_back({"Ism","Gakic",524312,4.3,{1,1,2002}});
 	int indeks{0};
 	double max_prosjek{niz.at(0).prosjek};
 	cout<<"Ispis podataka"<<endl;
