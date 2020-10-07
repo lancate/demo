@@ -10,7 +10,7 @@ class pravougaonik{
 		void ispis(){
 			cout<<"Duzina pravougaonika je "<<duzina<< " ,a sirina "<<sirina<<endl;
 			cout<<"Povrsina pravougaonika je "<<povrsina()<<endl;
-			cout<<"Obim pravougaonika je "<<povrsina()<<endl;
+			cout<<"Obim pravougaonika je "<<obim()<<endl;
 		}
 		int povrsina(){
 			return duzina*sirina;
